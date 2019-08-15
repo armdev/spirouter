@@ -8,7 +8,7 @@ import org.springframework.messaging.MessagingException;
 
 @MessageEndpoint
 @Slf4j
-public class StudentService {
+public class PaypalService {
 
     @ServiceActivator(inputChannel = "paypal.channel")
     public void recieveMessage(Message<?> message) throws MessagingException {
