@@ -1,0 +1,2 @@
+# spirouter
+spring integration router
