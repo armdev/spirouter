@@ -7,6 +7,7 @@ import static springfox.documentation.builders.PathSelectors.regex;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
+
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
@@ -21,8 +22,8 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("Router API")
                 .description("Router")
-                .termsOfServiceUrl("http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm?Open")                
-                .contact("Armen Arzumanyan")
+                .termsOfServiceUrl("http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm?Open")
+                // .contact("Armen Arzumanyan")
                 .license("Apache License Version 2.0")
                 .licenseUrl("https://github.com/IBM-Bluemix/news-aggregator/blob/master/LICENSE")
                 .version("2.0")
